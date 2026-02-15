@@ -1,0 +1,45 @@
+favicon: /img/favicon.png
+avatar: /img/avatar.jpg
+author: 'Tomas Gutierrez'
+author_bio: 'Math @ UT Austin'
+
+menu:
+  Research: /#Research
+  About: /
+  Blog: https://phower.me
+
+loading_bg:
+  flink: /img/headshot.jpeg
+
+social:
+  enable: true
+social_links:
+  fab fa-github: / https://github.com/t0masGutierrez?tab=repositories
+  fab fa-stack-overflow: /
+  fab fa-linkedin: /
+  fab fa-weibo: /
+  fab fa-weixin: /
+  fab fa-qq: /
+  fas fa-envelope: / #E-mail
+  fas fa-rss: /  #rss
+
+# name: url || icon_name
+e_social:
+  enable: true
+e_social_links:
+  LinkedIn: https://www.linkedin.com/in/t0masgutierrez/ || fab fa-linkedin
+  GitHub: https://github.com/t0masGutierrez?tab=repositories || fab fa-github
+  Google Scholar: https://scholar.google.com/citations?user=YOUR_ID || fas fa-graduation-cap
+  ORCID: https://orcid.org/YOUR_ORCID_ID || fab fa-orcid
+
+box_shadow:
+  enable: false
+
+CDN_USE:
+  css:
+    - /css/index.css
+    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css # fontawesome 5
+  js:
+    - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
+    - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
+    - /js/main.js
